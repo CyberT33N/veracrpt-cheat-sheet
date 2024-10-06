@@ -49,6 +49,45 @@
 - **Performance**: Better performance than triple cascades, but slower than single-algorithm encryption.
 - **Use Case**: A good compromise between speed and multi-layered security.
 
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+# VeraCrypt Hash Algorithms Ranking
+
+## 1. **SHA-512 (Secure Hash Algorithm 512-bit)**
+- **Strength**: SHA-512 offers a very high level of security with a 512-bit output, making it highly resistant to collisions and brute-force attacks. It’s widely used and trusted across many applications.
+- **Performance**: Though slower than SHA-256 due to its larger bit size, SHA-512 is still efficient on modern hardware.
+- **Use Case**: Ideal for users who want maximum security without significant performance compromises.
+
+## 2. **Whirlpool**
+- **Strength**: Whirlpool produces a 512-bit hash and is designed specifically for cryptographic security. It hasn’t seen widespread use like SHA-512 but is still regarded as very secure and resistant to all known attacks.
+- **Performance**: Slower than SHA-512, especially on older hardware.
+- **Use Case**: Great for users who prefer non-SHA alternatives with high security margins, but the performance can be a downside.
+
+## 3. **SHA-256 (Secure Hash Algorithm 256-bit)**
+- **Strength**: SHA-256 is one of the most popular hash algorithms and is used in many security protocols, including SSL, TLS, and Bitcoin. It’s highly secure with a 256-bit output and has withstood years of cryptanalysis.
+- **Performance**: Faster than SHA-512, making it a good balance between security and speed.
+- **Use Case**: The go-to choice for most users who want a highly secure but faster hashing algorithm than SHA-512.
+
+## 4. **Streebog (GOST R 34.11-2012)**
+- **Strength**: Streebog is a Russian hashing standard, available in 256-bit and 512-bit versions. While secure, it has seen less scrutiny in Western cryptographic communities.
+- **Performance**: Reasonably efficient, but not as optimized or as fast as SHA-256.
+- **Use Case**: Suitable for those looking for a non-Western hash standard with good security, though less tested globally.
+
+---
+
+# Summary:
+For most users, **SHA-512** offers the best combination of security and performance. **Whirlpool** is also a solid option but may be slower, and **SHA-256** strikes a perfect balance between speed and security. **Streebog** is an interesting choice for those seeking alternatives to SHA, but it’s less widely trusted.
+
+
 ---
 
 # Summary:

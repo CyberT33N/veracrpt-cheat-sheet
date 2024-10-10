@@ -126,10 +126,10 @@ _____________________________________________________
 
    
 4. Create ne wencrypted volume with veracrypt
-  Encrypt a non-system partition/drive >
-    Standard Veracrypt volume >
-      Choose Partition (e.g. /dev/sda1) >
-        Choose Encrytion (recommended AES-Twofish-Serpent + SHA512) and set password with PIM (recommended 4 characters)
-          Choose file system BTRFS and **do not check quick format**
-            CHoose `Mount the volume only on linux`
+- Encrypt a non-system partition/drive >
+  - Standard Veracrypt volume >
+    - Choose Partition (e.g. /dev/sda1) >
+      - Choose Encrytion (recommended AES-Twofish-Serpent + SHA512) and set password with PIM (recommended 4 characters)
+        - Choose file system BTRFS and **do not check quick format**
+          - Choose `Mount the volume only on linux`
   

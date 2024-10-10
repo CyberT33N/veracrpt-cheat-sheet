@@ -1,7 +1,7 @@
 # veracrpt-cheat-sheet
 
 
-
+<br><br>
 
 # VeraCrypt Encryption Algorithms Ranking
 
@@ -92,3 +92,44 @@ For most users, **SHA-512** offers the best combination of security and performa
 
 # Summary:
 For most users, **AES** offers the best balance of security and performance. **Serpent** and **Twofish** are excellent alternatives if you want stronger security margins, but they come at a performance cost. Cascades like **AES-Twofish-Serpent** provide extreme security but are slower and may be overkill for everyday use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+_____________________________________________________
+_____________________________________________________
+<br><br>
+<br><br>
+
+# Volumes
+
+## External Hard Drive
+
+### Ubuntu
+1. Format your Hard Drive with gparted
+2. Create new partition. I used BTRFS format
+3. Test if you can copy files to it
+
+   
+4. Create ne wencrypted volume with veracrypt
+  Encrypt a non-system partition/drive >
+    Standard Veracrypt volume >
+      Choose Partition (e.g. /dev/sda1) >
+        Choose Encrytion (recommended AES-Twofish-Serpent + SHA512) and set password with PIM (recommended 4 characters)
+          Choose file system BTRFS and **do not check quick format**
+            CHoose `Mount the volume only on linux`
+  

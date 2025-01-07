@@ -1,6 +1,32 @@
 # veracrpt-cheat-sheet
 
 
+
+# CLI
+
+
+<br><br>
+
+## Unmount mounted container that are not visble in GUI
+```shell
+ls -l /dev/mapper
+pkexec /bin/bash -c dmsetup remove veracrypt1 veracrypt2 veracrypt3 veracrypt4 veracrypt5 veracrypt6
+```
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+________
+________
+<br><br>
 <br><br>
 
 # VeraCrypt Encryption Algorithms Ranking

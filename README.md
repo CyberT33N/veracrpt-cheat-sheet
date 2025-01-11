@@ -5,6 +5,20 @@
 # CLI
 
 
+<details><summary>Click to expand..</summary>
+
+
+# Parameter
+
+<details><summary>Click to expand..</summary>
+
+## --text
+- The --text parameter says we want to use VeraCrypt in text mode, not GUI. Note, the --text parameter must be the FIRST parameter you pass in, or it will not work.
+
+
+</details>
+
+
 <br><br>
 
 ## Unmount mounted container that are not visble in GUI
@@ -15,7 +29,7 @@ pkexec /bin/bash -c dmsetup remove veracrypt1 veracrypt2 veracrypt3 veracrypt4 v
 
 
 
-
+</details>
 
 
 
